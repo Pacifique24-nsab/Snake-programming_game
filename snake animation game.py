@@ -45,9 +45,6 @@ w.addch(int(food[0]), int(food[1]), curses.ACS_PI)
 # Initial snake direction is to the right
 key = curses.KEY_RIGHT
 
-
-
-
 # Infinite loop for game execution
 while True:
     # Get the next key
@@ -78,7 +75,7 @@ while True:
     # Insert the new head of the snake
     snake.insert(0, new_head)
 
-    # Determine what happens when the snake eats the food
+    # Determine what happens when the snake eats the food( the food is defined as pie)
     if snake[0] == food:
         food = None
         while food is None:
