@@ -75,7 +75,7 @@ while True:
     # Insert the new head of the snake
     snake.insert(0, new_head)
 
-    # Determine what happens when the snake eats the food( the food is defined as pie)
+    # Determine what happens when the snake eats the food( the food is defined as pie symbol)
     if snake[0] == food:
         food = None
         while food is None:
