@@ -90,5 +90,6 @@ while True:
         tail = snake.pop()
         w.addch(int(tail[0]), int(tail[1]), ' ')
 
-    # Add the head of the snake to the screen
+    # Add the head of the snake to the screen( to refresh the game if the user find the food)
+    
     w.addch(int(snake[0][0]), int(snake[0][1]), curses.ACS_CKBOARD)
