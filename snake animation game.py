@@ -2,7 +2,7 @@ import curses
 import random
 
 
-# Print the instructions for the user to show him how the game is instructed
+# Print the instructions for the user to show him/her how the game is instructed
 print("Instructions:")
 print("Use the arrow keys to move the snake{ up-arrow,dow-arrow ,right-arrow, left-arrow .")
 print("The snake will move in the direction of the arrow key you press.")
