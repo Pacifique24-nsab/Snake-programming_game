@@ -27,7 +27,7 @@ w.keypad(1)
 # Refresh screen every 100 milliseconds
 w.timeout(100)
 
-# Create the snake initial position
+# Create the snake initial position by using the cordinate of a graph (x and y)
 snk_x = sw//4
 snk_y = sh//2
 
