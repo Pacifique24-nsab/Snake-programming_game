@@ -21,7 +21,7 @@ sh, sw = s.getmaxyx()
 # Create a new window using screen height and width
 w = curses.newwin(sh, sw, 0, 0)
 
-# Accept keypad input
+# Accept keypad input by preparing the environment for the user
 w.keypad(1)
 
 # Refresh screen every 100 milliseconds
