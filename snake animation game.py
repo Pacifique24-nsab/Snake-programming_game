@@ -60,7 +60,7 @@ while True:
         curses.endwin()
         quit()
 
-    # Determine the new head of the snake
+    # Determine the new head of the snake after the user got the previous one
     new_head = [snake[0][0], snake[0][1]]
 
     # Update the head based on the direction
