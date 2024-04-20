@@ -23,7 +23,6 @@ w = curses.newwin(sh, sw, 0, 0)
 w.keypad(1)
 
 # Refresh screen every 100 milliseconds for each touch from the user
-
 w.timeout(100)
 
 # Create the snake initial position by using the cordinate of a graph (x and y)
