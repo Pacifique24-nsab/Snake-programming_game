@@ -7,6 +7,7 @@ print("The snake will move in the direction of the arrow key you press.")
 print("If the snake eats the food which is (π), it will grow longer.")
 print("If the snake hits the border or itself, the game will end.")
 print("Enjoy the game!")
+
 # Initialize the screen
 s = curses.initscr()
 
