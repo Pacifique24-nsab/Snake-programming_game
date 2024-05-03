@@ -2,7 +2,7 @@ import curses
 import random
 # Print the instructions for the user to show him/her how the game is instructed
 print("Instructions:")
-print("Use the arrow keys to move the snake{ up-arrow,dow-arrow ,right-arrow, left-arrow .")
+print("Use the arrow keys to move the snake [up-arrow,dow-arrow ,right-arrow, left-arrow ."]
 print("The snake will move in the direction of the arrow key you press.")
 print("If the snake eats the food which is (π), it will grow longer.")
 print("If the snake hits the border or itself, the game will end.")
