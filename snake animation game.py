@@ -8,7 +8,8 @@ print("If the snake eats the food which is (π), it will grow longer.")
 print("If the snake hits the border or itself, the game will end.")
 print("Enjoy the game!")
 
-# Initialize the screen
+# Initialize the screen of the game
+
 s = curses.initscr()
 
 # Set the cursor to 0
