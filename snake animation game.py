@@ -9,7 +9,6 @@ print("If the snake hits the border or itself, the game will end.")
 print("Enjoy the game!")
 
 # Initialize the screen of the game
-
 s = curses.initscr()
 
 # Set the cursor to 0
