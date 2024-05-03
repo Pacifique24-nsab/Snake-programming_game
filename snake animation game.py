@@ -39,7 +39,7 @@ snake = [
 
 # Create the snake food which
 food = [sh//2, sw//2]
-w.addch(int(food[0]), int(food[1]), curses.ACS_PI)
+w.addch(int(food[0]), int(food[1]), curses.ACS_PI) used to similate live screen
 
 # Initial snake direction is to the right
 key = curses.KEY_RIGHT
