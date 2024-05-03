@@ -11,7 +11,7 @@ print("Enjoy the game!")
 # Initialize the screen of the game
 s = curses.initscr()
 
-# Set the cursor to 0
+# Set the cursor to 0 for initializing it
 curses.curs_set(0)
 
 # Get the height and width of the screen
