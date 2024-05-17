@@ -1,4 +1,4 @@
-import curses
+import curses 
 import random
 # Print the instructions for the user  
 print("Instructions:")
