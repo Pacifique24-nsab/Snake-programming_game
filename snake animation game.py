@@ -47,7 +47,7 @@ key = curses.KEY_RIGHT
 while True:
     # Get the next key
     next_key = w.getch()
-    key = key if next_key == -1 else next_key
+    key = key if next_key == -1 else  next_key
 
     # Check if snake runs over the border or itself(the area is limited, if the user bite the borders, the loop stop)
     if snake[0][0] in [0, sh] or \
