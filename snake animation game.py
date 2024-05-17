@@ -43,7 +43,7 @@ w.addch(int(food[0]), int(food[1]), curses.ACS_PI) used to similate live screen
 # Initial snake direction is to the right
 key = curses.KEY_RIGHT
 
-# Infinite loop for game execution( as long as the user play very well by respecting the instructions, the game can continue)
+# Infinite loop for game execution( as long as the user play very well by respecting the instructions,the game can continue)
 while True:
     # Get the next key
     next_key = w.getch()
