@@ -49,7 +49,7 @@ while True:
     next_key = w.getch()
     key = key if next_key == -1 else  next_key
 
-    # Check if snake runs over the border or itself(the area is limited, if the user bite the borders, the loop stop)
+    # Check if snake runs over the border or itself(the area is limited, if the user bite the borders, the loop stop immediately)
     if snake[0][0] in [0, sh] or \
         snake[0][1]  in [0, sw] or \
         snake[0] in snake[1:]:
