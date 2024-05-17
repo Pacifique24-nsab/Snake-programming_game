@@ -36,6 +36,7 @@ snake = [
     [snk_y, snk_x-1],
     [snk_y, snk_x-2] 
 ]
+
 # Create the snake's food 
 food = [sh//2, sw//2]
 w.addch(int(food[0]), int(food[1]), curses.ACS_PI) used to similate live screen
