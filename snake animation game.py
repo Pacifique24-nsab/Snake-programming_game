@@ -26,7 +26,7 @@ w.keypad(1)
 # Refresh screen every 100 millisecs for each touch from the user in the live screen
 w.timeout(100)
 
-# Create the snake initial position by using the cordinate of a graph (x and y)
+# Create the snake initial position by using the cordinate of the graph (x and y)
 snk_x = sw//4
 snk_y = sh//2
 
