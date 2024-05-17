@@ -70,7 +70,7 @@ while True:
     if key == curses.KEY_RIGHT:
         new_head[1] += 1
 
-    # Insert the new head of the snake
+    # Insert the new head of the snake after eating the previous one
     snake.insert(0, new_head)
 
     # Determine what happens when the snake eats the food( the food is defined as pie symbol)
