@@ -1,7 +1,7 @@
 import curses 
 import random
 # Print the instructions for the user  
-print("Instructions:")
+print("Instructions: ")
 print("Use the arrow keys to move the snake [up-arrow,dow-arrow ,right-arrow, left-arrow ."]
 print("The snake will move in the direction of the arrow key you press.")
 print("If the snake eats the food which is (π), it will grow longer.")
