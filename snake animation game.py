@@ -14,7 +14,7 @@ s = curses.initscr()
 # Set the cursor to 0 for initializing it
 curses.curs_set(0)
 
-# Get the height and the width of the screen
+# Get the "height" and the width of the screen
 sh, sw = s.getmaxyx()
 
 # Create a new window using screen height and width
